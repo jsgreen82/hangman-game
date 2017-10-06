@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
+<body>
+	<div class="jumbotron">
+  <h1>Hangman</h1>
+  <p>Press any key to play!</p>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+	<div id="wins">Wins:</div>
+	<div id="lettersGuessed">Your Guesses:</div>
+	<div id="remaingGuesses">Remaining Guesses:</div>
+	</div>
+		</div>
+		<div class="col-md-4">Current Word:
+			<span id="dashes"> </span></div>
+			<div id="current-answer"></div>
+		</div>
+	</div>
+</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
+

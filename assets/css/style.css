@@ -1,0 +1,12 @@
+.jumbotron { 
+	margin: 10px;
+	background-image: url("../images/banner.jpg"); 
+	color: #fff;
+	}
+
+.container {
+	width: 980px;
+	border: solid 1px #00bfff;
+}
+
+#current-answer {opacity: 0;}
